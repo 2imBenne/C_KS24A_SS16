@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 void updateArr(int arr[],int *newVal,int *index){
 	arr[*index -1] = *newVal; 
 } 
@@ -10,6 +10,7 @@ void printArr(int arr[],int *n){
 	} 
 } 
 int main(){
+	system("color 5"); 
 	int n = 5;
 	int arr[n] = {1,2,3,4,5};
 	printf("Before update: ");
